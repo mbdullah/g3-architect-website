@@ -100,7 +100,7 @@ main > section{
     width: 100%;
 }
 
-/* team and features releted style */
+/* team and features related style */
 
 .teams{
     align-items: center;
@@ -120,9 +120,11 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
-/* features section releted style */
+/* features section related style */
 .features{
     gap: 140px;
+    align-items: center;
+    
 }
 
 #features-section-title{
@@ -212,6 +214,19 @@ main > section{
 }
 .sponsors-companies img{
     filter: grayscale(100%);
+}
+
+/* footer style */
+
+.footer-container{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 130px;
+    font-size: 1.25rem;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
