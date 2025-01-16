@@ -122,10 +122,11 @@ main > section{
 }
 
 /* facts releted style */
+
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
+    justify-items: center;
 }
 
 .fact-card{
@@ -154,6 +155,7 @@ main > section{
 
 .section-title-description{
     max-width: 542px;
+    margin-bottom: 100px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -166,8 +168,13 @@ main > section{
         flex-direction: column;
         gap: 20px;
     }
-    .team-image-container{
+    .team-image-container,
+    .facts-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
     .our-features{
         margin-left: 20px;
