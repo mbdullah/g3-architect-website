@@ -11,6 +11,9 @@
 .display-flex{
     display: flex;
 }
+.text-primary{
+    color: #FF900E;
+}
 /* dark 1 */
 .color-black{
     color: #131313;
@@ -26,7 +29,7 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
-.btn-praymari{
+.btn-primary{
     font-size: 1.20rem;
     font-weight: 500;
     color: white;
@@ -36,9 +39,15 @@
     border-radius: 8px;
     margin-top: 32px;
     margin-bottom: 50px;
-
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
 /* header style */
 
 
@@ -62,7 +71,7 @@
     font-weight: 500;
 }
 .navbar, .banner{
-    max-width: 1450px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -85,6 +94,31 @@
 }
 .banner-image{
     width: 100%;
+}
+
+/* team and features releted style */
+
+.teams{
+    align-items: center;
+}
+
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 537px;
+}
+
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick-list{
+    font-weight: 500;
 }
 
 /* responsive media query */
